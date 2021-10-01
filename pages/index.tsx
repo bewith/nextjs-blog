@@ -43,6 +43,15 @@ export default function Home({
           ))}
         </ul>
       </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <Link href={`/hoge`}>
+          <a>hoge</a>
+        </Link>
+        {` `}
+        <Link href={`/hoge/1`}>
+          <a>hoge/id</a>
+        </Link>
+      </section>
     </Layout>
   )
 }
